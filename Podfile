@@ -6,5 +6,6 @@ target 'BaseProjectStructure' do
   use_frameworks!
 
   # Pods for BaseProjectStructure
+	pod 'SwiftLint'
 
 end
