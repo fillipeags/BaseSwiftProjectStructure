@@ -25,7 +25,6 @@
 		76AD29D02CEEBAD3002C6312 /* LoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AD29CF2CEEBAD3002C6312 /* LoginForm.swift */; };
 		76AD29D22CEEBADC002C6312 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AD29D12CEEBADC002C6312 /* LoginModel.swift */; };
 		76AD29D42CEEBB2D002C6312 /* Spacing.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76AD29D32CEEBB2D002C6312 /* Spacing.xcassets */; };
-		76AD29D62CEEBB34002C6312 /* Fonts.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76AD29D52CEEBB34002C6312 /* Fonts.xcassets */; };
 		76AD29D82CEEBB3B002C6312 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76AD29D72CEEBB3B002C6312 /* Colors.xcassets */; };
 		CD62CA210C31C2205F25D99C /* Pods_BaseProjectStructure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7969142599F2B6B0F5C382E8 /* Pods_BaseProjectStructure.framework */; };
 /* End PBXBuildFile section */
@@ -52,7 +51,6 @@
 		76AD29CF2CEEBAD3002C6312 /* LoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginForm.swift; sourceTree = "<group>"; };
 		76AD29D12CEEBADC002C6312 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		76AD29D32CEEBB2D002C6312 /* Spacing.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Spacing.xcassets; sourceTree = "<group>"; };
-		76AD29D52CEEBB34002C6312 /* Fonts.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Fonts.xcassets; sourceTree = "<group>"; };
 		76AD29D72CEEBB3B002C6312 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		76CE1B892CEEB72F0062C25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7969142599F2B6B0F5C382E8 /* Pods_BaseProjectStructure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseProjectStructure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -396,7 +394,6 @@
 			isa = PBXGroup;
 			children = (
 				76CE1B872CEEB56C0062C25B /* Spacing */,
-				76CE1B862CEEB5680062C25B /* Fonts */,
 				76CE1B852CEEB5630062C25B /* Colors */,
 			);
 			path = Theme;
@@ -408,14 +405,6 @@
 				76AD29D72CEEBB3B002C6312 /* Colors.xcassets */,
 			);
 			path = Colors;
-			sourceTree = "<group>";
-		};
-		76CE1B862CEEB5680062C25B /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				76AD29D52CEEBB34002C6312 /* Fonts.xcassets */,
-			);
-			path = Fonts;
 			sourceTree = "<group>";
 		};
 		76CE1B872CEEB56C0062C25B /* Spacing */ = {
@@ -509,7 +498,6 @@
 			files = (
 				769FAE862CEEAA9500CA66C8 /* .swiftlint.yml in Resources */,
 				76AD29D42CEEBB2D002C6312 /* Spacing.xcassets in Resources */,
-				76AD29D62CEEBB34002C6312 /* Fonts.xcassets in Resources */,
 				769FAE8B2CEEABC800CA66C8 /* Localizable.strings in Resources */,
 				769FAE7E2CEE9D0A00CA66C8 /* Preview Assets.xcassets in Resources */,
 				769FAE7B2CEE9D0A00CA66C8 /* AppIcon.xcassets in Resources */,
